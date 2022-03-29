@@ -1,0 +1,58 @@
+body {
+    background-color: #222831;
+    font-family: 'Roboto', sans-serif;
+}
+.center{
+    text-align: center;
+    width: 100%;
+    color: #00ADB5;
+}
+h1 {
+    font-size: 4rem;
+}
+i {
+    font-size: 2.5rem;
+    margin: 0px 5px;
+    color: #00ADB5;
+}
+.bar {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.number {
+    font-size: 5.5rem;
+    margin: 20px 16px;
+    letter-spacing: 10px;
+}
+button {
+    margin: 0;
+    background-color: #393E46;
+}
+.five-down{
+    margin-bottom: 20px;
+}
+label {
+    font-size: 1.5rem;
+    margin: 0 5px 0 10px;
+}
+input {
+    width: 90%;
+    background-color: #393E46;
+    color: #00ADB5;
+}
+.smallscreen {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 690px) {
+    .smallscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
